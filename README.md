@@ -16,8 +16,29 @@ Azarya Melkamu — ETS0187/15
 Anasimos Derbe — ETS0151/15
 
 ***Repository structure:***
+```bash
+docs/
+  project/
+  requirements/
+  design/
+    interfaces/
+  scm/
+    baselines/
+    ccb/
+    registers/
+    environments/
+    suppliers/
+  testing/
+  user/
 
-
+frontend/
+backend/
+database/
+tests/
+scripts/
+release/
+.github/
+```
 ***Setup:***
 
 ***Configuration status:***
