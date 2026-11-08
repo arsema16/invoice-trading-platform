@@ -1,7 +1,7 @@
 **Project: Web-based Invoice Trading Platform**
 
 ***Project description:***
-An academic platform for listing and trading unpaid invoices.
+A platform for listing and trading unpaid invoices.
 
 ***Team:***
 
