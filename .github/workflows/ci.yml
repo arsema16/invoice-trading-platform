@@ -28,10 +28,10 @@ jobs:
     env:
       TEST_DATABASE_URL: postgresql://postgres:postgres@localhost:5432/invoice_trading_test
     steps:
-      # actions/checkout v4.3.1, recorded as CI-SUP-001
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
-      # actions/setup-node v4.4.0, recorded as CI-SUP-004
-      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+      # actions/checkout v7.0.1, recorded as CI-SUP-001
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      # actions/setup-node v7.1.0, recorded as CI-SUP-004
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
         with:
           node-version: 22
       - name: Check required files and controlled-item rules
