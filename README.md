@@ -2,7 +2,6 @@
 
 A platform where sellers list unpaid invoices for discounted sale to investors. Planned capabilities are registration and role-based access, invoice upload and administration, browsing, bidding or purchase, payment and settlement status tracking, and reporting.
 
-Repository URL: [Add repository URL]
 
 ## Team
 
