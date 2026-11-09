@@ -1,0 +1,14 @@
+Requirement,Design element,Source path,Test case,Latest result
+FR-01,SDD Authentication; users table,backend/src/routes/auth-routes.js,TC-01; TC-02,Not run
+FR-02,SDD Invoices; invoices table,backend/src/routes/invoice-routes.js,TC-03,Not run
+FR-03,SDD Invoices,backend/src/routes/invoice-routes.js,TC-04,Not run
+FR-04,SDD Bids; bids table,backend/src/routes/bid-routes.js,TC-05,Not run
+FR-05,SDD Invoices,backend/src/routes/invoice-routes.js,TC-06,Not run
+FR-06,SDD Settlements; settlements tables,backend/src/routes/settlement-routes.js,TC-07,Not run
+FR-07,SDD Reports,backend/src/routes/report-routes.js,TC-08,Not run
+NFR-01,SDD Security design,backend/src/routes/auth-routes.js,TC-09,Not run
+NFR-02,SDD Access control,backend/src/middleware/auth-middleware.js,TC-09,Not run
+NFR-03,SDD Validation; NUMERIC columns,backend/src/utils/validation.js,TC-10,Not run
+NFR-04,.gitignore; environment templates,scripts/check-structure.sh,Repository check,Not run
+NFR-05,Lock files; migrations,backend/package-lock.json; frontend/package-lock.json; database/migrations/,Clean install and build,Not run
+NFR-06,UI design,frontend/src/components/,TC-11,Not run
