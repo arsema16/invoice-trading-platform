@@ -5,8 +5,8 @@ status=0
 
 required=(
   "docs/project/ITP-CHR-Charter-v0.1.md"
-  "docs/scm/ITP-SCMP-Plan-v0.1.docx"
-  "docs/scm/ITP-CID-Identification-v0.1.docx"
+  "docs/scm/ITP-SCMP-Plan-v0.1.pdf"
+  "docs/scm/ITP-CID-Identification-v0.1.pdf"
   "frontend/package.json"
   "frontend/package-lock.json"
   "backend/package.json"

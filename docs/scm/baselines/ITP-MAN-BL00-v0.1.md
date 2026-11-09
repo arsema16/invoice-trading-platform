@@ -20,8 +20,8 @@ CI ID: CI-REC-02. Version 0.1. Prepared by the Configuration Manager.
 | CI ID | Path | Version |
 |---|---|---|
 | CI-DOC-01 | `docs/project/ITP-CHR-Charter-v0.1.md` | 0.1 |
-| CI-DOC-04 | `docs/scm/ITP-SCMP-Plan-v0.1.docx` | 0.1 |
-| CI-DOC-07 | `docs/scm/ITP-CID-Identification-v0.1.docx` | 0.1 |
+| CI-DOC-04 | `docs/scm/ITP-SCMP-Plan-v0.1.pdf` | 0.1 |
+| CI-DOC-07 | `docs/scm/ITP-CID-Identification-v0.1.pdf` | 0.1 |
 | CI-CFG-03 | `frontend/package.json; frontend/package-lock.json; backend/package.json; backend/package-lock.json` | 0.1 |
 | CI-CFG-01 | `.github/workflows/ci.yml` | 0.1 |
 | CI-CFG-02 | `frontend/.env.example; backend/.env.example` | 0.1 |

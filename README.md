@@ -52,4 +52,4 @@ Full steps and demonstration accounts are in `docs/user/ITP-USR-UserManual-v0.1.
 
 ## Rules
 
-Configuration management follows `docs/scm/ITP-SCMP-Plan-v0.1.docx`. Identifiers and naming follow `docs/scm/ITP-CID-Identification-v0.1.docx`. Contribution steps are in `.github/CONTRIBUTING.md`. No secrets or real financial data may be stored here.
+Configuration management follows `docs/scm/ITP-SCMP-Plan-v0.1.pdf`. Identifiers and naming follow `docs/scm/ITP-CID-Identification-v0.1.pdf`. Contribution steps are in `.github/CONTRIBUTING.md`. No secrets or real financial data may be stored here.
