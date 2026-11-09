@@ -1,0 +1,5 @@
+[
+  { "invoiceNumber": "SYN-001", "debtorName": "Abay Synthetic Trading", "amount": "100000.00", "askingPrice": "92000.00", "dueDate": "2027-01-15" },
+  { "invoiceNumber": "SYN-002", "debtorName": "Tana Example Supplies", "amount": "45000.50", "askingPrice": "41000.00", "dueDate": "2027-02-20" },
+  { "invoiceNumber": "SYN-003", "debtorName": "Awash Demo Logistics", "amount": "250000.00", "askingPrice": "230000.00", "dueDate": "2027-03-10" }
+]

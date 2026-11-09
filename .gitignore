@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Build output and coverage
+dist/
+build/
+coverage/
+
+# Logs and editor files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Word lock files
+~$*

@@ -1,0 +1,50 @@
+name: Repository checks
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-24.04
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: invoice_trading_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      TEST_DATABASE_URL: postgresql://postgres:postgres@localhost:5432/invoice_trading_test
+    steps:
+      # actions/checkout v4.3.1, recorded as CI-SUP-001
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+      # actions/setup-node v4.4.0, recorded as CI-SUP-004
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: 22
+      - name: Check required files and controlled-item rules
+        run: bash scripts/check-structure.sh
+      - name: Run backend tests
+        working-directory: backend
+        run: |
+          if [ ! -s src/app.js ]; then echo "Source code not added yet; skipping tests."; exit 0; fi
+          npm ci
+          npm test
+      - name: Build frontend
+        working-directory: frontend
+        run: |
+          if [ ! -s src/App.jsx ]; then echo "Source code not added yet; skipping build."; exit 0; fi
+          npm ci
+          npm run build
